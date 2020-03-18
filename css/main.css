@@ -1,1 +1,86 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,900");
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+/**
+* 1. Change the default font familyin all browsers (opinionated).
+* 2. Correct the line height in allbrowsers.
+* 3. Prevent adjustments of fontsize after orientation changes in
+*    IE on Windows Phone and in iOS.*/
+/* Document
+==========================================================================*/
+html {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 3 */
+  -webkit-text-size-adjust: 100%;
+  /* 3 */
+}
+
+/* Sections
+========================================================================== */
+/**
+* Remove the margin in all browsers (opinionated).*/
+body {
+  margin: 0;
+}
+
+/**
+* Add the correct display in IE 9-.
+*/
+*::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-header {
+  position: absolute;
+  top: 1em;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo {
+  width: 25%;
+  min-width: 10rem;
+  max-width: 15rem;
+}
+
+.main-nav {
+  display: none;
+}
+
+.hero {
+  background: -webkit-gradient(linear, left top, right top, from(#048ca8), to(#16db93));
+  background: linear-gradient(to right, #048ca8, #16db93);
+  color: white;
+  padding-top: 8em;
+  padding-bottom: 8em;
+  text-align: center;
+}
+
+.hero-img {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */
